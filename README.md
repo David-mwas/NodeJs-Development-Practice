@@ -35,6 +35,13 @@ In any case, when Node.js is installed you'll have access to the node executable
      ![javascript runtime](<Assets/🚀⚙️ JavaScript Visualized_ the JavaScript Engine.gif>)
      Understanding the runtime is crucial for efficient code, especially in handling asynchronous operations and server-side development.
  ### Modules (User defined)
+ A module is an encapsulated and reusable chunk of code that has its own context in NodeJs, each file is treated as a separate module
+ - Local modules - Modules that we create in our application
+ - Built-in modules - Modules that Nodejs ships with out of the box  
+ - Third party modules - Modules written by other developer that we can use in our application
+
+ CommonJS is a standard that states how a module should be structured and shared
+ Nodejs adopted CommonJS when is started out and is what is seen in code bases
  ### Buil-in modules
  ### Node.js internals
  ### npm - Node Package Manager

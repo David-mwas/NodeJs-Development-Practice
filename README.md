@@ -15,14 +15,32 @@ See https://github.com/nvm-sh/nvm for more information about this option.
 
 In any case, when Node.js is installed you'll have access to the node executable program in the command line.
 ### Topics, Core concepts and introduction to NODEJS 
-- Terms and concepts to understand what is NODEJS
-- Modules (User defined)
-- Buil-in modules
-- Node.js internals
-- npm - Node Package Manager
-- CLI tools
-- Misc
-- EXPRESSJS
+ #### Terms and concepts to understand what is NODEJS
+  - ECMA script refers to standard language
+  - Javascript is what we use in practice and builds on top of ECMA Script
+  - ECMA-262 is language specification
+  - ECMA Script is language tha implements ECMA-262
+     ### Javascript Engine
+     Javascript engine is a program that converts javascript code  into machine code that allows a computer to perform specific tasks
+   
+  - V8, SpiderMonkey, JavascriptCore, Safari, Chakra
+         #### Chrome V8 Engine
+         V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors. V8 can run standalone, or can be embedded into any C++ application.Its was created in 2008.
+     ### Javascript Runtime
+     JavaScript runtime is the environment where code is executed. In browsers, it's powered by engines like V8. 
+     - Node.js - offers a server-side runtime using V8. 
+     - Execution - context manages code scope and execution. 
+     - The event loop - handles asynchronous tasks. 
+     - Memory management - includes allocation and garbage collection. 
+     
+     Understanding the runtime is crucial for efficient code, especially in handling asynchronous operations and server-side development.
+ ### Modules (User defined)
+ ### Buil-in modules
+ ### Node.js internals
+ ### npm - Node Package Manager
+ ### CLI tools
+ ### Misc
+ ### EXPRESSJS
 ## Prerequisites
 ### Modern JavaScript
 - Javascript Fundamentals crash course

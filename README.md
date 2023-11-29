@@ -1,5 +1,5 @@
 # NODEJS DEVELOPMENT
-![Alt text](nodejs-use-cases-cover-image.png)
+![Alt text](/Assets/nodejs-use-cases-cover-image.png)
 ## What is NODEJS
 Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!
 

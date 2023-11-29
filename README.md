@@ -32,7 +32,7 @@ In any case, when Node.js is installed you'll have access to the node executable
      - Execution - context manages code scope and execution. 
      - The event loop - handles asynchronous tasks. 
      - Memory management - includes allocation and garbage collection. 
-     
+     ![javascript runtime](<Assets/🚀⚙️ JavaScript Visualized_ the JavaScript Engine.gif>)
      Understanding the runtime is crucial for efficient code, especially in handling asynchronous operations and server-side development.
  ### Modules (User defined)
  ### Buil-in modules

@@ -1,11 +1,11 @@
-// Immediately Invoked Functions Expression(IIFE) 
+// Immediately Invoked Functions Expression(IIFE)
 
-(function () {
+(function (message) {
   const superHero = "Batman";
-  console.log("🚀 ~ file: iife.js:3 ~ superHero:", superHero);
-})();
+  console.log("🚀 ~ file: iife.js:3 ~ superHero:", message, superHero);
+})("Hello There");
 
-(function () {
+(function (message) {
   const superHero = "Superman";
-  console.log("🚀 ~ file: iife.js:8 ~ const:", superHero);
-})();
+  console.log("🚀 ~ file: iife.js:8 ~ const:", message, superHero);
+})("Hey There");

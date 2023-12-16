@@ -112,6 +112,13 @@ etc.
 
 ### EXPRESSJS
 
+RESTful services (Representational State Transfer)
+
+    C - POST /api/customers
+    R - GET /api/customers
+    U - PUT /api/customers/<id>
+    D - DELETE /api/customers/<id>
+
 ## Prerequisites
 
 ### Modern JavaScript

@@ -7,7 +7,7 @@
   "name": "nodejs",
   "description": "![Alt text](/Assets/nodejs-use-cases-cover-image.png)\r ## What is NODEJS\r Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./expressdemo/index.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

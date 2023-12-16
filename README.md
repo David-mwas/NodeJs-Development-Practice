@@ -126,6 +126,8 @@ Express is a simple, minimalistic and lightweight framework for building web ser
     const express = require(‘express’);
     const app = express();
 
+## Examples of requests (CRUDE)
+
 ##### Creating a course
 
     app.post(‘/api/courses’, (req, res) => {

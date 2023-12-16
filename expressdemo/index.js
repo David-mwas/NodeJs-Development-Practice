@@ -43,7 +43,7 @@ app.get("/api/posts/:year/:month", (req, res) => {
 app.put("/api/courses/:id", (req, res) => {
   const course = courses.find((c) => c.id === parseInt(req.params.id));
   if (!course) {
-    res.status(404).send("The course with the given id was not found!");
+    return res.status(404).send("The course with the given id was not found!");
   }
 
   course.name = req.body.name;
@@ -54,7 +54,7 @@ app.put("/api/courses/:id", (req, res) => {
 app.delete("/api/courses/:id", (req, res) => {
   const course = courses.find((c) => c.id === parseInt(req.params.id));
   if (!course) {
-    res.status(404).send("The course with the given id was not found!");
+    return res.status(404).send("The course with the given id was not found!");
   }
 
   const index = courses.indexOf(course);

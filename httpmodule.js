@@ -6,7 +6,16 @@ const server = http.createServer((req, res) => {
     res.end();
   }
   if (req.url === "/api/courses") {
-    res.write(JSON.stringify(["js", "react", "nodejs"]));
+    JSON.stringify(
+      ["js ", "react ", "nodejs"].map((item) => {
+        res.write(item.toUpperCase());
+      })
+    );
+
+    res.end();
+  }
+  if (req.url === "/about") {
+    res.write("Its about to go down hahaha");
     res.end();
   }
 });

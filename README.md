@@ -196,4 +196,4 @@ Express is a simple, minimalistic and lightweight framework for building web ser
 
 - Javascript Fundamentals crash course
 - Advanced Javascript Crash course
-- ES2015/2016 topics
+- ES2015/2016 topics (ES6)

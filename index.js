@@ -1,16 +1,16 @@
 // import "./modules/batman.js"
-// import "./modules/superman.js"
-// const superHero = require("./modules/superhero");
+import "./modules/superman.js"
+const superHero = require("./modules/superhero");
 
-// // destracturing import objects
-// const { add, subtract } = require("./modules/math");
+// destracturing import objects
+const { add, subtract } = require("./modules/math");
 
-// console.log("🚀 ~ file: index.js:4 ~ superHero:", superHero.getName());
-// superHero.setName("Superman");
-// console.log("🚀 ~ file: index.js:6 ~ superHero:", superHero.getName());
+console.log("🚀 ~ file: index.js:4 ~ superHero:", superHero.getName());
+superHero.setName("Superman");
+console.log("🚀 ~ file: index.js:6 ~ superHero:", superHero.getName());
 
-// console.log("🚀 ~ file: index.js:11 ~ add:", add(3, 90));
-// console.log("🚀 ~ file: index.js:11 ~ subtract:", subtract(30, 20));
+console.log("🚀 ~ file: index.js:11 ~ add:", add(3, 90));
+console.log("🚀 ~ file: index.js:11 ~ subtract:", subtract(30, 20));
 
 const request = require("request");
 const express = require("express");

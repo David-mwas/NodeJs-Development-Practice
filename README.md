@@ -55,7 +55,7 @@ A module is an encapsulated and reusable chunk of code that has its own context 
 CommonJS is a standard that states how a module should be structured and shared
 Nodejs adopted CommonJS when is started out and is what is seen in code bases
 
-### Buil-in modules
+### Built-in modules
 
 ### Node.js internals
 
